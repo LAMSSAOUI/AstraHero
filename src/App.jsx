@@ -7,9 +7,6 @@ function App() {
   return (
     <>
     <Navbar />
-    <Typography variant='h1' align='center'>
-        Bonjour 
-    </Typography>
     </>
     
   )
