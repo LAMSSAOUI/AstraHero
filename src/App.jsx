@@ -1,12 +1,13 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import { Typography } from '@mui/material';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import { ThemeProvider } from '@mui/styles'
 
 function App() {
   return (
     <>
-    <Navbar />
+      <Navbar />
+      <Hero />
     </>
     
   )
