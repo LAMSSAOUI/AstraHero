@@ -1,14 +1,18 @@
-import { AppBar , Tab, Tabs, makeStyles, Toolbar, Typography } from '@mui/material'
+import { AppBar , Tab, Tabs, Toolbar, Typography } from '@mui/material'
 import { Container } from '@mui/system'
+import { makeStyles } from '@mui/styles'
 import React from 'react'
  
 
- 
+
 const Navbar = () => {
 
   return (
       <AppBar 
-        color='inherit'>
+        color='inherit'
+        position='sticky'
+        variant="fullWidth"
+        >
         <Container>
         <Toolbar>
           <Typography
