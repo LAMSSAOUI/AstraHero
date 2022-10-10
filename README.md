@@ -15,5 +15,7 @@ to see the Project :
    
               npm install 
               
-     
+  3. start with the command : 
+  
+              npm run dev
     
